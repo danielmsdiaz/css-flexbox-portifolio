@@ -210,6 +210,10 @@ nav .active a{
 }
 
 .info{
+    background-image: url('../img/banner-hid-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: #ffffff;
     flex: 1;
     padding-top: 50px;
@@ -269,11 +273,15 @@ nav .active a{
 
 .container-cards{
     padding: 2px 16px;
-    background-color: #f1f7e6;
+    background-color: #fff;
+}
+
+.card h4 b{
+    color: black;
 }
 
 .container-cards:hover{
-    background-color: #dff3ba;
+    background-color: #90B645;
 }
 
 .card{
