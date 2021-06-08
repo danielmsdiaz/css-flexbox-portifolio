@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>HID</title>
+</head>
+
+<script type="text/javascript">
+    window.onload = function () {
+        document.querySelectorAll('.menu nav ul li').forEach(function (el) {
+            el.addEventListener('click', function () {
+                ant = document.getElementsByClassName('active')[0];
+                ant.classList.remove('active');
+                if (!el.classList.contains('active')) {
+                    el.classList.add('active');
+                }
+            });
+        });
+    }
+</script>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img id="logo-hid" src="assets/img/logo-hid-fundo.png" alt=""></a>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="active"><a href="#banner"><strong>HOME</strong></a>
+                        <li><a href="#sobre"> <strong>SOBRE</strong></a>
+                        <li><a href="#geral"><strong>SKILLS</strong></a>
+                        <li><a href="#footer"><strong>CONTATO</strong></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner-headline">
+                <h1>
+                    <a href="https://www.escavador.com/sobre/492759860/hector-ivan-diaz-gonzalez">HECTOR IVAN DIAZ
+                        GONZALEZ</a>
+                </h1>
+                <h2>
+                    Engenheiro civil atuante na área de lalalalalalasdldaslasdl dsalasdlasdlads dsakasdk
+                </h2>
+            </div>
+            <div id="sobre" class="banner-options">
+                <div class="banner1">
+                    <div class="banner-title">
+                        Quem sou eu?
+                    </div>
+                    <a href="#sobre">Clique</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner-title">
+                        Sobre
+                    </div>
+                    <a href="#geral">Clique</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner-title">
+                        Contato
+                    </div>
+                    <a href="#footer">Clique</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container column">
+            <div class="info">
+                <div class="info-title">
+                    Sobre mim:
+                </div>
+                <div class="widget-border">
+                </div>
+                <div class="info-text">
+                    <h2>
+                        <p>Engenheiro civil formado em 1995 pela <a
+                                href="https://www.javeriana.edu.co/inicio">Pontificia Universidad Javeriana de Bogotá
+                                (Colômbia).</a></p>
+                        <p>Possui curso de especialização em mecânica dos solos e engenharia de fundações (1998) pelo <a
+                                href="http://www.cedex.es/CEDEX/lang_castellano/">CEDEX (Madri/Espanha)</a> e Mestrado
+                            em Geotecnia (2003) pela <a href="https://unal.edu.co/">Universidad Nacional de
+                                Colômbia</a>, além de diversos cursos de atualização.</p>
+                        <p>Atualmente sócio/diretor da HID PLANEJAMENTO AMBIENTAL LTDA, suas atividades focam-se na
+                            elaboração de projetos de cunho ambiental e saneamento básico, licenciamento e
+                            acompanhamento de obras no tocante a meio ambiente.</p>
+                        <p>Possui comprovada experiência na elaboração de projetos de infraestrutura como terraplenagem,
+                            drenagem, aterros sanitários dentre outros. Possui experiência também na supervisão de obras
+                            de engenharia.</p>
+                    </h2>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skills-title">
+                    Habilidades:
+                </div>
+                <div class="widget-border">
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <img src="assets/img/excel-logo.jpg" alt="">
+                        <div class="container-cards">
+                            <h4><b>Excel</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/corel-draw-logo.png" alt="">
+                        <div class="container-cards">
+                            <h4><b>Corel Draw</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/corel-draw-logo.png" alt="">
+                        <div class="container-cards">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/corel-draw-logo.png" alt="">
+                        <div class="container-cards">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="footer-top-container">
+                <div class="info-emp">
+                    <img src="assets/img/logo-hid-fundo.png" id="logo-footer" alt="">
+                    <p>A HID PLANEJAMENTO AMBIENTAL LTDA é um(a) Sociedade Empresária Limitada de Recife - PE fundada em
+                        24/08/2009.</p>
+                    <p>Sua atividade principal é Outras Atividades Profissionais, Científicas E Técnicas Não
+                        Especificadas Anteriormente.</p>
+                </div>
+                <div class="info-mapa">
+                    <div class="info-mapa-title">
+                        Contato
+                    </div>
+                    <div class="widget-border footer">
+                    </div>
+                    <p>RUA SIDERAL , 184, APT 0604</p>
+                    <p><b>CEP</b>: 51.030-630</p>
+                    <p><b>Telefone:</b> (81) 3424-8890</p>
+                    <p><b>Email:</b> contato@levetec.com.br</p>
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container-copyright">
+                <div>Copyright <strong>HID PLANEJAMENTO AMBIENTAL</strong>. Alguns direitos Reservados</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
